@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+h3 {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+/* Hover */
+.track-link {
+  text-decoration: none;
+  color: #007bff; 
+  transition: color 0.3s ease-in-out; 
+}
+
+.track-link:hover {
+  color: #1DB954 !important; 
+  cursor: pointer;
+}
